@@ -1,0 +1,33 @@
+<html>
+<head>
+<title> enthero enthooo</title>
+</head>
+<body>
+<h1 id="h">welcome to javascript</u></h1>
+<p>javaScript is a programming language used to create dynamic conter language that executes code line by line providing more flexibility.
+HTML adds Structure to a web page, CSS styles it and JavaScript bring and showing animations. JavaScript on the client side is directly executed in the user's brow
+where you can test your JavaScript code. JavaScript is also used on the Server side (on Web Servers) to access</p>
+<hr>
+change your webpage background to:
+<button onclick="changeback('lightblue')">blue</button>
+<button onclick="changeback('lightgreen')">green</button>
+<button onclick="changeback('lightpink')">pink</button>
+<br>
+<br>
+change your heading background to:
+<button onclick="changehead('red')">red</button>
+<button onclick="changehead('blue')">blue</button>
+<button onclick="changehead('green')">green</button>
+<script>
+function changeback(color)
+{
+document.body.style.background=color;
+}
+function changehead (color)
+{
+var c=document.getElementById("h");
+c.style.background=color;
+}
+</script>
+</body>
+</html>
